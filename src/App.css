@@ -1,4 +1,51 @@
-.App {
+.card, button {
+  margin: 20px 10px;
+  text-align: left !important;
+}
+h4{
+  text-align: center;
+  padding-top: 20px;
+}
+.col-md-3{
+  padding: 0px !important;
+}
+
+.row{
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.close-icon{
+  text-align: right;
+  margin: 5px 10px -25px 5px;
+  cursor: pointer;
+}
+.card-footer{
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+}
+.card-body{
+  margin: 20px 5px 5px;
+  padding: 0px 20px 20px;
+}
+
+.card-title{
+  white-space: nowrap; 
+  max-width: 80vw; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.card-title::first-letter{
+  text-transform: capitalize;
+}
+
+.card-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

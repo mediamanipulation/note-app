@@ -1,3 +1,7 @@
+added moment js and removed the hard coded dates, with the system adding / updating the dates
+
+original code from [https://www.agiratech.com/learn-develop-app-reactjs-30-minutes/](https://www.agiratech.com/learn-develop-app-reactjs-30-minutes/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
